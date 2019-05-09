@@ -322,3 +322,18 @@ footer {
     display: none;
   }
 }
+/* mobile */
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+    border: 1px solid black;
+  }
+  nav {
+    display: flex;
+  }
+  nav a {
+    flex-flow: column;
+  }
+}
