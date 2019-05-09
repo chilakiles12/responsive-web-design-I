@@ -327,10 +327,10 @@ footer {
   header {
     display: flex;
     flex-flow: column-reverse;
-    align-items: center;
+
     border: 1px solid black;
   }
-  nav {
+  nav a {
     display: flex;
   }
   nav a {
