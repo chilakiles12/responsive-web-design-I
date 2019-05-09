@@ -312,10 +312,13 @@ footer {
     flex-flow: column-reverse wrap;
     align-items: center;
   }
+  .cta {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+  }
 
-  .code-snippet {
-    border: 1px solid black;
-    /* won't display hidden */
-    visibility: hidden;
+  .cta img {
+    display: none;
   }
 }
